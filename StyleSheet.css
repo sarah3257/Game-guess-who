@@ -1,0 +1,252 @@
+﻿body {
+    /*    background-image: url('img/רקע.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;  */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: Guttman-Aram;
+    font-size:1.8vh;
+
+}
+
+.img_people {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 5vw;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 32%;
+    left: 60%;
+  
+}
+
+img {
+    background-image: url('img/0.jpg');
+    width: 4vw;
+    height: 11vh;
+    border: solid #fbeb72 3px;
+    border-radius: 10%;
+}
+.container {
+    height: 100vh;
+}
+
+
+button {
+    display: flex;
+    width: 10vw;
+    height: 5vh;
+    background-color: #e3a69f;
+    border: solid #3e3e3e 2px;
+    color: black;
+    opacity: 75%;
+    font-size:1.3vh;
+}
+
+.div_question {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 5vw;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 58vh;
+    left: 3.5%;
+}
+
+.div_question1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 5vw;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 20vh;
+    left: 2%;
+}
+.selectQ {
+    display: flex;
+    width: 10vw;
+    height: 5vh;
+    background-color: #e3a69f;
+    border: solid #3e3e3e 2px;
+    color: black;
+    opacity: 80%;
+    font-size: 1.3vh;
+}
+button:hover {
+    opacity: 95%;
+    background-color: forestgreen;
+    width: 10.2vw;
+    height: 5.2vh;
+}
+.tryCnt {
+    color:black;
+    opacity: 95%;
+    width: 12vw;
+    height: 6vh;
+    background-color: crimson;
+}
+
+img:hover{
+   /* background-color:green;
+    opacity:50%;*/
+}
+.nameImg{
+
+}
+.backG {
+    width: 99vw;
+    height: 98.5vh;
+  
+}
+
+.backImg {
+    width: 99vw;
+    height: 98.5vh;
+    border: solid #fbeb72 0px;
+    border-radius: 0;
+/*    z-index:-2;*/
+ 
+
+}
+
+#clock {
+    font-size: 10vh;
+    position: absolute;
+    right: 5%
+}
+/*
+#try_div {
+    position: absolute;
+    top: 5%;
+    right: 20%
+}*/
+.winImg{
+       position: absolute;
+    width: 99vw;
+    height: 98.5vh;
+    border: solid #fbeb72 0px;
+    border-radius: 0;
+}
+.failImg {
+    position: absolute;
+    width: 99vw;
+    height: 98.5vh;
+    border: solid #fbeb72 0px;
+    border-radius: 0;
+}
+#tafrit {
+    position: absolute;
+    right: 15%;
+    height: 40vh;
+    width: 15vw;
+    border: 2px dashed pink;
+    position: absolute;
+    top: 7vh;
+    background-color: #e3a69fc7;
+}
+.tafritImg {
+    position: absolute;
+    top: 2%;
+    right: 18%;
+    border: solid #fbeb72 0px;
+    border-radius: 0%;
+    background-image: none;
+    width: 3.5vw;
+    height: 7vh;
+}
+.muenButton {
+    font-size: 3vh;
+    color: navy;
+    margin: 39%;
+}
+#circle{
+     margin: 0vh;
+}
+.img_lifes {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    width: 50vw;
+    height: 80vh;
+    right: 27.5%;
+}
+.lifes1{
+    background-image: none;
+    position: absolute;
+    height: 7.5vh;
+    width: 6vw;
+    background-color: none;
+    border: solid #fbeb72 0px;
+/*    visibility:collapse;*/
+    top: 2vh;
+}
+.instrecthion {
+    overflow: auto;
+    display: none;
+    position: absolute;
+    right: 30%;
+    height: 38vh;
+    width: 35vw;
+    background-color: #e3a69fc7;
+    border: 2px dashed pink;
+    position: absolute;
+    top: 34vh;
+}
+#save1 {
+    background-image: url('img/b_save.png');
+    position: absolute;
+    height: 9vh;
+    width: 7vw;
+    background-color: none;
+    border: solid #fbeb72 0px;
+    top: 91vh;
+    right: 10vh;
+}
+#save2 {
+    background-image: url('img/b_save.png');
+    position: absolute;
+    height: 9vh;
+    width: 7vw;
+    background-color: none;
+    border: solid #fbeb72 0px;
+    top: 91vh;
+    right: 0vh;
+}
+.winnerPage1 {
+
+    background-image: url('img/winner.jpg');
+    position: absolute;
+    height: 15vh;
+    width: 20vw;
+    background-color: none;
+    border: solid #fbeb72 0px;
+    top: 21vh;
+    right: 50%;
+}
+
+.winImg1 {
+/* z-index:-1;*/
+    position: absolute;
+    width: 39vw;
+    height: 48.5vh;
+    border: solid #fbeb72 0px;
+    border-radius: 0;
+}
+.winnerP {
+    position: absolute;
+    height: 20vh;
+    width: 40vw;
+    font-size: 190%;
+    background-color: none;
+    color: #040303;
+    border: solid #fbeb72 0px;
+    top: 11vh;
+    right: -120%;
+    z-index: 2;
+}

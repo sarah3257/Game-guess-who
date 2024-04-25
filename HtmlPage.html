@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>  
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          &gt;>
+
+    <script src="JavaScript.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body id="body" onload="start()">
+    <audio id="click">
+        <source src="audio/check.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="worng">
+        <source src="audio/wrong.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="musicB">
+        <source src="audio/%d7%9e%d7%a0%d7%92%d7%99%d7%a0%d7%aa%20%d7%a8%d7%a7%d7%a2.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio id="Guessing">
+        <source src="audio/Guessing.mp3" type="audio/mpeg" />
+    </audio>
+    
+    
+    <img id="save1" onclick="savePlay()" src="img/b_save.png" />
+    <img  id="save2" onclick="backtoplay()" src="img/b_prev.png" />
+   
+
+    <div id="mainDiv" class="backG"></div>
+    <div id="instrecthion1" class="instrecthion">
+        <a href='#' onclick="close_instrecthion()" class="instrecthion2"><i id='x2' class='fa fa-times-circle'></i></a>
+
+        <pre>
+                                     :הוראות המשחק 
+                    .במשחק נחש מי, עליך לעזור לגלות מיהו האדם החשוד
+    .עליך לבחור בשאלות מתוך השאלות המוצגות לפניך, עפ''י הקטגוריה המתאימה לשאלה
+ '?לדוגמא בקטגוריה 'מין' ישנן 2 שאלות שביכלתך לשאול: 1.'האם אני בן?', 2.'האם אני בת
+                             והמחשב יהפוך את הקלפים בהתאם לתשובה  
+          
+            שים/י לב: מספר השאלות שביכולתך לשאול הינה מוגבלת ע"פ רמת קושי המשחק
+                       ישנן שלוש רמות שונות: רמה קלה בינונית וקשה 
+                           רמה בינונית היא ברירת מחדל של המחשב   
+                       .באפשרותך לשנות בתפריט בכניסה למשחק: קל/קשה
+
+                                           זהירות-     
+                           !!יש טיימר שיפריע לך ,, תשתדל לנצח אותו
+                         בחר/י את השאלות ברצינות ולאחר חשיבה מעמיקה 
+                                    כדי שתזכה במדליית הזהב
+
+
+        </pre>
+    </div>
+
+</body>
+</html>
